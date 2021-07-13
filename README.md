@@ -8,6 +8,8 @@ The web scraping process:
 3.	Make a request to these URLs to get the HTML of the page
 4.	Use locators to find the data in the HTML
 5.	Save the data in CSV file or some other structured format
+
+
 Step 1 : Install and Import libraries
 Step 2 : Inspect the web page and scrape HTML content from web page
 Now let’s inspect the web page first that we’re going to scrape. Go to naukri.com and search for “Python”.
