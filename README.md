@@ -11,6 +11,7 @@ The web scraping process:
 
 
 Step 1 : Install and Import libraries
+
 Step 2 : Inspect the web page and scrape HTML content from web page
 Now let’s inspect the web page first that we’re going to scrape. Go to naukri.com and search for “Python”.
 The data fields I am interested in are “Title”, “Company Name”, “Ratings”, “Reviews”,and “URL” to apply for the job. We’ll create an empty dataframe to store these fields first.
