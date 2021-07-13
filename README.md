@@ -14,5 +14,10 @@ Step 1 : Install and Import libraries
 
 Step 2 : Inspect the web page and scrape HTML content from web page
 Now let’s inspect the web page first that we’re going to scrape. Go to naukri.com and search for “Python”.
-The data fields I am interested in are “Title”, “Company Name”, “Ratings”, “Reviews”,and “URL” to apply for the job. We’ll create an empty dataframe to store these fields first.
+
+Step 3 : Extract the data from HTML tags.The data fields I am interested in are “Title”, “Company Name”, “Ratings”, “Reviews”,and “URL” to apply for the job. We’ll create an empty dataframe to store these fields first.
 df = pd.DataFrame(columns=[‘Title’,‘Company’,‘Ratings’,‘Reviews’,‘URL’])
+
+Step.4:Data cleansing
+The data still needs bit of cleaning which you can do on your own in excel and Python.
+
